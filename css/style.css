@@ -972,6 +972,12 @@ footer .contacts_footer {
    fill: #EE6C0E;
    transition: 0.3s;
 }
+.tab-content_labels-inner{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
 
 .tab-content_inner {
    background-color: #fff;
@@ -1964,6 +1970,11 @@ footer .contacts_footer {
       width: 100%;
       height: auto;
       margin-bottom: 40px;
+   }
+   .tab-content_labels-inner{
+      overflow-x: overlay;
+      flex-wrap: nowrap;
+      white-space: nowrap;
    }
 }
 
