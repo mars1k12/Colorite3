@@ -1084,6 +1084,7 @@ footer .contacts_footer {
    background-color: transparent;
    z-index: 100;
    height: 100%;
+   user-select: none;
 }
 
 .close_inner {

@@ -309,7 +309,7 @@ $('#design-portfolio_btn').on('click', () => {
 
 $(document).on('click', '.tab-content_inner-item', function(){
   event.preventDefault();
-  var id = $('.tab-content_inner'),
+  var id = $('.modalyak'),
   top = $(id).offset().top;
   $('body,html').animate({scrollTop: top}, 0);
   $('.tab-content_inner-item').removeClass('modal-scroll');
@@ -335,7 +335,7 @@ $(document).on('click', '.close_inner', function(){
   event.preventDefault();
           var id = $('.tab-content_inner'),
           top = $(id).offset().top;
-          $('body,html').animate({scrollTop: top}, 1000);
+          $('body,html').animate({scrollTop: top}, 0);
 
 
   $('.tab-content_inner-item').removeClass('modal-scroll');
@@ -353,22 +353,10 @@ $(document).on('click', '.bg-overlay', function(){
   event.preventDefault();
           var id = $('.tab-content_inner'),
           top = $(id).offset().top;
-          $('body,html').animate({scrollTop: top }, 1000);
+          $('body,html').animate({scrollTop: top }, 0);
           $('.tab-content_inner-item').removeClass('modal-scroll');
 });
 
-
-
-
-
-
-$("#burger").on("click", function () { 
-  if ($(this).is(":checked")) {
-    $('body').css("overflow", "hidden")
-  } else {
-    $('body').css("overflow", "visible")
-  }
-})
 
 
 
