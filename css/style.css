@@ -913,11 +913,11 @@ footer .contacts_footer {
    margin-right: 65px;
    padding-right: 10px;
 }
-
-.tab-content label:hover {
-   color: #EE6C0E;
+@media(hover: hover){
+   .tab-content label:hover {
+      color: #EE6C0E;
+   }
 }
-
 #all-portfolio_btn:checked+label, #web-portfolio_btn:checked+label, #prom-portfolio_btn:checked+label, #design-portfolio_btn:checked+label {
    color: #EE6C0E;
 }
@@ -946,12 +946,12 @@ footer .contacts_footer {
    transform-origin: bottom right;
    transition: transform 0.3s;
 }
-
-.tab-content label:hover:after {
-   transform-origin: bottom left;
-   transform: scaleX(1);
+@media(hover: hover){
+   .tab-content label:hover:after {
+      transform-origin: bottom left;
+      transform: scaleX(1);
+   }
 }
-
 .plusportf {
    display: inline-block;
    position: absolute;
@@ -2183,11 +2183,6 @@ footer .contacts_footer {
    }
 }
 
-@media (max-width:414px) {
-   .tab-content label {
-      margin-right: 100px;
-   }
-}
 
 @media (max-width:350px) {
    .tab-content_inner-item time {

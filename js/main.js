@@ -315,7 +315,7 @@ $(document).on('click', '.tab-content_inner-item', function(){
   $('.tab-content_inner-item').removeClass('modal-scroll');
   $(this).addClass('modal-scroll');
   $('.container').css("padding", "0")
-  $('.modal').eq( $(this).index('.tab-content_inner-item') ).fadeIn();
+  $('.modal').eq( $(this).index('.tab-content_inner-item') ).fadeIn('slow','linear');
   $('.bg-overlay').fadeIn();
   $('header').fadeOut();
   $('footer').fadeOut();
