@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const fs = require('fs');
 const path = require('path');
@@ -54,16 +55,23 @@ module.exports = {
             },
             {
                 test: /\.(css)$/,
-                use: [
-                    'style-loader',
-                    {
-                        loader: 'css-loader',
-                        options: {
-                            sourceMap: true,
-                            url: false
-                        }
-                    }
-                ]
+                use: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: [
+                        {
+                            loader: "postcss-loader",
+                            options: {
+                                ident: 'postcss',
+                                plugins: () => [
+                                    require('autoprefixer')({
+                                        overrideBrowserslist: ['ie >= 8', 'last 4 version']
+                                    }),
+                                    require('postcss-import')()
+                                ]
+                            }
+                        },
+                    ]
+                })
             },
             {
                 test: /\.(png|svg|jpg|gif|ttf|woff|woff2)$/,
@@ -74,7 +82,11 @@ module.exports = {
         ]
     },
     plugins: [
-        ...htmlPlugins()
+        ...htmlPlugins(),
+        new ExtractTextPlugin('./src/css/style.css')
     ],
-    mode: "development"
+    mode: "development",
+    resolve: {
+        extensions: ['.js', '.jpg', '.html', '.css'],
+    }
 };

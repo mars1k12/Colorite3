@@ -1,11 +1,8 @@
 import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
+
 import $ from 'jquery';
 import AOS from 'aos';
 import 'masonry-layout';
-
-import './../css/normalize.css';
-import './../css/style.css';
 
 AOS.init();
 

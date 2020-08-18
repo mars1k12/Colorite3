@@ -1,3 +1,6 @@
+@import "./normalize.css";
+@import "swiper/swiper-bundle.css";
+
 @font-face {
    font-family: "Proxima Nova";
    font-weight: 900;
