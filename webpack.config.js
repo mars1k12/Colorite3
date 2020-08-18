@@ -85,7 +85,7 @@ module.exports = {
         ...htmlPlugins(),
         new ExtractTextPlugin('./src/css/style.css')
     ],
-    mode: "development",
+    mode: "production",
     resolve: {
         extensions: ['.js', '.jpg', '.html', '.css'],
     }
