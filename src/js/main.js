@@ -2,8 +2,11 @@ import Swiper from 'swiper';
 
 import $ from 'jquery';
 import AOS from 'aos';
-import 'masonry-layout';
+import jQueryBridget from 'jquery-bridget';
+import Masonry from 'masonry-layout';
+import './jquery.mask';
 
+jQueryBridget( 'masonry', Masonry, $ );
 AOS.init();
 
 const mySwiper = new Swiper('.swiper-container', {
