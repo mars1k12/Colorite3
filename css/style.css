@@ -1165,7 +1165,6 @@ footer .contacts_footer {
    font-size: 30px;
    line-height: 35px;
    color: #000000;
-   opacity: 0.32;
 }
 
 .modal-desc {
@@ -1262,7 +1261,7 @@ footer .contacts_footer {
 }
 
 .services_body .header_main-txt {
-   max-width: 52%;
+   max-width: 100%;
 }
 
 .services_body .services_inner {
@@ -1273,6 +1272,14 @@ footer .contacts_footer {
 
 .services_body .services_inner-item {
    margin-right: 220px;
+}
+
+.services_body h1{
+   max-width: 790px;
+}
+
+.services_body .header_main-txt p{
+   max-width: 1100px;
 }
 
 .services_body .services_inner h6 {
@@ -1304,7 +1311,7 @@ footer .contacts_footer {
 }
 
 .creating_body .header_main-txt p {
-   max-width: 590px;
+   max-width: 750px;
    font-weight: normal;
    font-size: 18px;
    line-height: 27px;
@@ -1313,7 +1320,7 @@ footer .contacts_footer {
 }
 
 .creating_list-inner-item {
-   max-width: 565px;
+   max-width: 615px;
    padding-top: 50px;
 }
 
@@ -1377,9 +1384,11 @@ footer .contacts_footer {
    border-top: 0;
    padding-top: 0px;
 }
-
+.promotion_body .header_main-txt h1 {
+   max-width: 1114px;
+}
 .promotion_body .header_main-txt p {
-   max-width: 975px;
+   max-width: 1200px;
 }
 .promotion_body .creating_list{
    background-image: url(../images/services/PROMOTION.png);
@@ -1395,7 +1404,6 @@ footer .contacts_footer {
    border-top: 1px solid rgba(0, 0, 0, 0.12);
    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
    display: flex;
-   justify-content: space-between;
    background-image: url(../images/services/BRANDING.png);
    background-repeat: no-repeat;
    background-position:center 115px;
@@ -1412,7 +1420,7 @@ footer .contacts_footer {
 }
 
 .design_visual-img_inner p {
-   max-width: 754px;
+   max-width: 584px;
    font-weight: normal;
    font-size: 18px;
    line-height: 27px;
@@ -1421,7 +1429,7 @@ footer .contacts_footer {
 }
 
 .design_visual-img_inner p:first-child {
-   max-width: 550px;
+   max-width: 516px;
    font-weight: bold;
    font-size: 20px;
    line-height: 30px;
@@ -1475,7 +1483,9 @@ footer .contacts_footer {
    height: auto;
    margin-bottom: 80px;
 }
-
+.ourinfo_body .header_main-txt p {
+   max-width: 740px;
+}
 .info-list{
    margin-top: 175px;
    margin-bottom: 175px;
