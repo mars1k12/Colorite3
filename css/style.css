@@ -2230,4 +2230,11 @@ footer .contacts_footer {
       background-color: #E5E5E5;
       color: #696969;
    }
+   .tab-content label:hover {
+      color: #000000;
+   }
+   .tab-content label:hover:after {
+      transform-origin: none;
+      transform: none;
+   }
 }
