@@ -995,7 +995,9 @@ footer .contacts_footer {
    overflow: hidden;
    margin-top: 36px;
 }
-
+.slider_works .tab-content_inner-item {
+   margin-top: 0px;
+}
 .tab-content_inner-item:hover {
    cursor: pointer;
 }
@@ -1042,7 +1044,9 @@ footer .contacts_footer {
    z-index: 2;
    margin: 8px 24px;
 }
-
+.tab-content_inner-item .blk-color{
+   color: #000000;
+}
 .tab-content_inner-item time {
    display: block;
    position: relative;
@@ -1172,7 +1176,7 @@ footer .contacts_footer {
    font-size: 18px;
    line-height: 27px;
    color: #333333;
-   max-width: 590px;
+   max-width: 940px;
 }
 
 .modal-desc2 {
@@ -1211,7 +1215,7 @@ footer .contacts_footer {
    border-radius: 4px;
    color: #000000;
    padding: 6px 50px;
-   display: inline-block;
+   display: none;
    font-weight: normal;
    font-size: 18px;
    line-height: 21px;
@@ -1474,7 +1478,6 @@ footer .contacts_footer {
    text-align: center;
    letter-spacing: 0.02em;
    color: #333333;
-   margin-bottom: 20px;
 }
 .ourinfo_body .our-goal img{
    display: block;

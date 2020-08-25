@@ -320,6 +320,8 @@ $(document).on('click', '.tab-content_inner-item', function(){
   $('header').fadeOut();
   $('footer').fadeOut();
   $('.creating_list').fadeOut();
+  $('.design_visual-img').fadeOut();
+
 
 });
 
@@ -330,7 +332,7 @@ $(document).on('click', '.close_inner', function(){
   $('footer').fadeIn();
   $('header').fadeIn();
   $('.creating_list').fadeIn();
-
+  $('.design_visual-img').fadeIn();
 
   event.preventDefault();
           var id = $('.tab-content_inner'),
@@ -349,6 +351,8 @@ $(document).on('click', '.bg-overlay', function(){
   $('footer').fadeIn();
   $('header').fadeIn();
   $('.creating_list').fadeIn();
+  $('.design_visual-img').fadeIn();
+
 
   event.preventDefault();
           var id = $('.tab-content_inner'),
