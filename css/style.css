@@ -1545,9 +1545,18 @@ footer .contacts_footer {
 
 
 
-
-
-
+@media (max-width:1400px){
+   .close {
+      position: absolute;
+      top: -81px;
+      right: 25px;
+      border: transparent;
+      background-color: transparent;
+      cursor: pointer;
+      z-index: 100;
+      height: 100%;
+   }
+}
 @media (max-width:1200px) {
    h4 {
       margin-top: 10px;
@@ -1625,16 +1634,7 @@ footer .contacts_footer {
       width: 495px;
       height: 495px;
    }
-   .close {
-      position: absolute;
-      top: -81px;
-      right: 25px;
-      border: transparent;
-      background-color: transparent;
-      cursor: pointer;
-      z-index: 100;
-      height: 100%;
-   }
+
    .info-list_inner{
       display: grid;
       grid-template-rows: 2;
