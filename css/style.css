@@ -793,12 +793,13 @@ input[type='email']:invalid:focus:not(:placeholder-shown)+.form__validation {
    width: 15%;
 }
 
-.contacts p {
+.our_mail {
+   display: block;
    font-weight: bold;
    font-size: 18px;
    line-height: 21px;
    color: #000000;
-   padding-bottom: 25px;
+   margin-bottom: 25px;
    text-align: right;
 }
 
@@ -1782,7 +1783,7 @@ footer .contacts_footer {
    footer .contacts_footer .socialnet svg path {
       fill: #EE6C0E;
    }
-   footer .contacts_footer a {
+   footer .contacts_footer a:not(:first-child) {
       padding-bottom: 45px;
    }
    footer .contacts_footer h5 {
@@ -2116,7 +2117,7 @@ footer .contacts_footer {
    .contacts_footer-items {
       display: block;
    }
-   footer .contacts_footer a {
+   footer .contacts_footer a:not(:first-child) {
       padding-bottom: 45px;
       margin-top: 25px;
    }
