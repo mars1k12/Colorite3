@@ -363,7 +363,7 @@ h1 span {
       width: 0;
    }
    to {
-      width: 630px;
+      width: 850px;
    }
 }
 
@@ -1784,6 +1784,23 @@ footer .contacts_footer {
       font-size: 32px;
       line-height: 44px;
    }
+   .slider_works h3 {
+      color: #000000;
+      background-color: #ffffff;
+      padding: 8px 2px;
+      display: inline;
+   }
+   @keyframes animated-text {
+      from {
+         opacity: 0;
+      }
+      to {
+         opacity: 1;
+      }
+   }
+   #write_txt {
+      white-space: normal;
+   }
    .coop {
       width: 100%;
    }
@@ -1866,12 +1883,7 @@ footer .contacts_footer {
    .typewrite {
       display: block;
    }
-   .slider_works h3 {
-      color: #000000;
-      background-color: #ffffff;
-      padding: 8px 2px;
-      display: inline;
-   }
+
    .services_inner {
       flex-direction: column;
    }
