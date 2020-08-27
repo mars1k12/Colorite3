@@ -914,11 +914,11 @@ footer .contacts_footer {
    margin-right: 65px;
    padding-right: 10px;
 }
-@media(hover: hover){
-   .tab-content label:hover {
-      color: #EE6C0E;
-   }
+
+.tab-content label:hover {
+   color: #EE6C0E;
 }
+
 #all-portfolio_btn:checked+label, #web-portfolio_btn:checked+label, #prom-portfolio_btn:checked+label, #design-portfolio_btn:checked+label {
    color: #EE6C0E;
 }
@@ -947,12 +947,12 @@ footer .contacts_footer {
    transform-origin: bottom right;
    transition: transform 0.3s;
 }
-@media(hover: hover){
-   .tab-content label:hover:after {
-      transform-origin: bottom left;
-      transform: scaleX(1);
-   }
+
+.tab-content label:hover:after {
+   transform-origin: bottom left;
+   transform: scaleX(1);
 }
+
 .plusportf {
    display: inline-block;
    position: absolute;
@@ -973,12 +973,11 @@ footer .contacts_footer {
    fill: #EE6C0E;
    transition: 0.3s;
 }
-.tab-content_labels-inner{
+
+.tab-content_labels-inner {
    display: flex;
    flex-wrap: wrap;
 }
-
-
 
 .tab-content_inner {
    background-color: #fff;
@@ -996,9 +995,11 @@ footer .contacts_footer {
    overflow: hidden;
    margin-top: 36px;
 }
+
 .slider_works .tab-content_inner-item {
    margin-top: 0px;
 }
+
 .tab-content_inner-item:hover {
    cursor: pointer;
 }
@@ -1045,9 +1046,11 @@ footer .contacts_footer {
    z-index: 2;
    margin: 8px 24px;
 }
-.tab-content_inner-item .blk-color{
+
+.tab-content_inner-item .blk-color {
    color: #000000;
 }
+
 .tab-content_inner-item time {
    display: block;
    position: relative;
@@ -1105,9 +1108,11 @@ footer .contacts_footer {
    background: transparent;
    border: none;
 }
-.close_inner:active, .close_inner:focus{
+
+.close_inner:active, .close_inner:focus {
    outline: transparent;
 }
+
 .close:active, .close:focus {
    outline: transparent;
 }
@@ -1279,11 +1284,11 @@ footer .contacts_footer {
    margin-right: 220px;
 }
 
-.services_body h1{
+.services_body h1 {
    max-width: 790px;
 }
 
-.services_body .header_main-txt p{
+.services_body .header_main-txt p {
    max-width: 1100px;
 }
 
@@ -1353,11 +1358,13 @@ footer .contacts_footer {
    border-top: 1px solid rgba(0, 0, 0, 0.12);
    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
-.creating_list{
+
+.creating_list {
    background-image: url(../images/services/DEVELOPER.png);
    background-repeat: no-repeat;
-   background-position:center 132px;
+   background-position: center 132px;
 }
+
 .creating_list-inner_t .creating_list-inner-item {
    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
    padding-bottom: 50px;
@@ -1389,13 +1396,16 @@ footer .contacts_footer {
    border-top: 0;
    padding-top: 0px;
 }
+
 .promotion_body .header_main-txt h1 {
    max-width: 1114px;
 }
+
 .promotion_body .header_main-txt p {
    max-width: 1200px;
 }
-.promotion_body .creating_list{
+
+.promotion_body .creating_list {
    background-image: url(../images/services/PROMOTION.png);
    background-repeat: no-repeat;
    background-position: center 132px;
@@ -1411,7 +1421,7 @@ footer .contacts_footer {
    display: flex;
    background-image: url(../images/services/BRANDING.png);
    background-repeat: no-repeat;
-   background-position:center 115px;
+   background-position: center 115px;
 }
 
 .design_visual-img_inner_img {
@@ -1449,17 +1459,18 @@ footer .contacts_footer {
    margin-bottom: 240px;
 }
 
-
 .ourinfo_body .services {
    margin-top: 80px;
    margin-bottom: 175px;
 }
+
 .ourinfo_body .creating_list {
    background-image: url(../images/services/OURMISSON.png);
    background-repeat: no-repeat;
    background-position: center 211px;
 }
-.ourinfo_body .our-goal h5{
+
+.ourinfo_body .our-goal h5 {
    font-weight: bold;
    font-size: 64px;
    line-height: 82px;
@@ -1469,7 +1480,8 @@ footer .contacts_footer {
    margin-top: 82px;
    margin-bottom: 25px;
 }
-.ourinfo_body .our-goal p{
+
+.ourinfo_body .our-goal p {
    display: block;
    margin: 0 auto;
    max-width: 500px;
@@ -1480,44 +1492,54 @@ footer .contacts_footer {
    letter-spacing: 0.02em;
    color: #333333;
 }
-.ourinfo_body .our-goal img{
+
+.ourinfo_body .our-goal img {
    display: block;
    margin: 0 auto;
    width: 535px;
    height: auto;
    margin-bottom: 80px;
 }
+
 .ourinfo_body .header_main-txt p {
    max-width: 740px;
 }
-.info-list{
+
+.info-list {
    margin-top: 175px;
    margin-bottom: 175px;
 }
-.info-list_inner{
+
+.info-list_inner {
    display: flex;
    justify-content: space-between;
 }
-.info-list_inner-item:nth-child(1){
+
+.info-list_inner-item:nth-child(1) {
    max-width: 350px;
 }
-.info-list_inner-item:nth-child(2){
+
+.info-list_inner-item:nth-child(2) {
    max-width: 275px;
 }
-.info-list_inner-item:nth-child(3){
+
+.info-list_inner-item:nth-child(3) {
    max-width: 315px;
 }
-.info-list_inner-item:nth-child(4){
+
+.info-list_inner-item:nth-child(4) {
    max-width: 325px;
 }
-.info-list_inner span{
+
+.info-list_inner span {
    font-weight: bold;
    font-size: 14px;
    line-height: 27px;
    letter-spacing: 0.02em;
    color: #333333
 }
-.info-list_inner h4{
+
+.info-list_inner h4 {
    font-weight: bold;
    font-size: 24px;
    line-height: 27px;
@@ -1526,7 +1548,8 @@ footer .contacts_footer {
    margin-top: 25px;
    margin-bottom: 15px;
 }
-.info-list_inner p{
+
+.info-list_inner p {
    font-weight: normal;
    font-size: 18px;
    line-height: 27px;
@@ -1534,19 +1557,15 @@ footer .contacts_footer {
    color: #333333;
 }
 
-
-
-
-.ovehide{
+.ovehide {
    display: none;
 }
-.ovevis{
+
+.ovevis {
    overflow: visible;
 }
 
-
-
-@media (max-width:1400px){
+@media (max-width:1400px) {
    .close {
       position: absolute;
       top: -81px;
@@ -1558,6 +1577,7 @@ footer .contacts_footer {
       height: 100%;
    }
 }
+
 @media (max-width:1200px) {
    h4 {
       margin-top: 10px;
@@ -1622,11 +1642,10 @@ footer .contacts_footer {
    }
    .creating_list {
       background-image: none;
-   }   
+   }
    .promotion_body .creating_list {
       background-image: none;
    }
-
    .design_visual-img_inner_txt {
       margin-top: 120px;
       margin-bottom: 140px;
@@ -1635,8 +1654,7 @@ footer .contacts_footer {
       width: 495px;
       height: 495px;
    }
-
-   .info-list_inner{
+   .info-list_inner {
       display: grid;
       grid-template-rows: 2;
       grid-template-columns: 50% 50%;
@@ -1645,7 +1663,7 @@ footer .contacts_footer {
    .info-list {
       margin-top: 100px;
       margin-bottom: 100px;
-  }
+   }
 }
 
 @media(max-width:860px) {
@@ -1901,9 +1919,9 @@ footer .contacts_footer {
    }
    .services_body .services_inner {
       padding-top: 0px;
-  }
-  .services_body footer {
-   margin-top: 90px;
+   }
+   .services_body footer {
+      margin-top: 90px;
    }
    .design_visual-img_inner_img {
       margin: 0 auto;
@@ -1918,19 +1936,19 @@ footer .contacts_footer {
    .ourinfo_body .services {
       margin-top: 0px;
       margin-bottom: 75px;
-  }
-  .ourinfo_body .header_main {
-   margin-bottom: 50px;
    }
-   .info-list_inner{
+   .ourinfo_body .header_main {
+      margin-bottom: 50px;
+   }
+   .info-list_inner {
       grid-template-columns: 100%;
       grid-gap: 60px;
    }
    .info-list {
       margin-top: 100px;
       margin-bottom: 100px;
-  }
-  .info-list_inner-item:nth-child(1) {
+   }
+   .info-list_inner-item:nth-child(1) {
       max-width: 100%;
    }
    .info-list_inner-item:nth-child(2) {
@@ -1942,7 +1960,6 @@ footer .contacts_footer {
    .info-list_inner-item:nth-child(4) {
       max-width: 100%;
    }
-
 }
 
 @media (max-width:589px) {
@@ -1973,19 +1990,19 @@ footer .contacts_footer {
       margin-top: 0;
       margin-bottom: 10px;
    }
-   .ourinfo_body .our-goal h5{
+   .ourinfo_body .our-goal h5 {
       font-weight: bold;
       font-size: 32px;
       line-height: 44px;
       margin-top: 40px;
       margin-bottom: 25px;
    }
-   .ourinfo_body .our-goal img{
+   .ourinfo_body .our-goal img {
       width: 100%;
       height: auto;
       margin-bottom: 40px;
    }
-   .tab-content_labels-inner{
+   .tab-content_labels-inner {
       overflow-x: overlay;
       flex-wrap: nowrap;
       white-space: nowrap;
@@ -2196,7 +2213,6 @@ footer .contacts_footer {
       margin-bottom: 100px;
    }
 }
-
 
 @media (max-width:350px) {
    .tab-content_inner-item time {
