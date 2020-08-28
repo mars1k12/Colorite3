@@ -379,9 +379,7 @@ $(document).on('click', '.close_inner', function(){
           var id = $('.modalyak'),
           top = $(id).offset().top;
           $('body,html').animate({scrollTop: top}, 0);
-
-
-  $('.tab-content_inner-item').removeClass('modal-scroll');
+          $('.tab-content_inner-item').removeClass('modal-scroll');
 });
 
 
@@ -404,6 +402,23 @@ $(document).on('click', '.bg-overlay', function(){
 });
 
 
+
+$(document).on('click', '.close', function(){
+  $('.container').css("padding", "0 15px")
+  $('.modal').fadeOut();
+  $('.bg-overlay').fadeOut();
+  $('footer').fadeIn();
+  $('header').fadeIn();
+  $('.creating_list').fadeIn();
+  $('.design_visual-img').fadeIn();
+  $('.coopandcont').fadeIn();
+
+  event.preventDefault();
+          var id = $('.modalyak'),
+          top = $(id).offset().top;
+          $('body,html').animate({scrollTop: top}, 0);
+          $('.tab-content_inner-item').removeClass('modal-scroll');
+});
 
 
 
