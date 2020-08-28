@@ -303,6 +303,47 @@ $('#design-portfolio_btn').on('click', () => {
 
 
 
+$(document).on('click', '.lawcen', function(){
+  event.preventDefault();
+  var id = $('.modalyak'),
+  top = $(id).offset().top;
+  $('body,html').animate({scrollTop: top}, 0);
+  $('.modal-lawcen').fadeIn('slow','linear');
+});
+
+$(document).on('click', '.exzaim', function(){
+  event.preventDefault();
+  var id = $('.modalyak'),
+  top = $(id).offset().top;
+  $('body,html').animate({scrollTop: top}, 0);
+  $('.modal-exzaim').fadeIn('slow','linear');
+});
+
+$(document).on('click', '.ttswin', function(){
+  event.preventDefault();
+  var id = $('.modalyak'),
+  top = $(id).offset().top;
+  $('body,html').animate({scrollTop: top}, 0);
+  $('.modal-ttswin').fadeIn('slow','linear');
+});
+
+$(document).on('click', '.fgmgame', function(){
+  event.preventDefault();
+  var id = $('.modalyak'),
+  top = $(id).offset().top;
+  $('body,html').animate({scrollTop: top}, 0);
+  $('.modal-fgmgame').fadeIn('slow','linear');
+});
+
+$(document).on('click', '.rmpwr', function(){
+  event.preventDefault();
+  var id = $('.modalyak'),
+  top = $(id).offset().top;
+  $('body,html').animate({scrollTop: top}, 0);
+  $('.modal-rmpwr').fadeIn('slow','linear');
+});
+
+
 
 
 
@@ -321,8 +362,7 @@ $(document).on('click', '.tab-content_inner-item', function(){
   $('footer').fadeOut();
   $('.creating_list').fadeOut();
   $('.design_visual-img').fadeOut();
-
-
+  $('.coopandcont').fadeOut();
 });
 
 $(document).on('click', '.close_inner', function(){
@@ -333,9 +373,10 @@ $(document).on('click', '.close_inner', function(){
   $('header').fadeIn();
   $('.creating_list').fadeIn();
   $('.design_visual-img').fadeIn();
+  $('.coopandcont').fadeIn();
 
   event.preventDefault();
-          var id = $('.tab-content_inner'),
+          var id = $('.modalyak'),
           top = $(id).offset().top;
           $('body,html').animate({scrollTop: top}, 0);
 
@@ -352,15 +393,15 @@ $(document).on('click', '.bg-overlay', function(){
   $('header').fadeIn();
   $('.creating_list').fadeIn();
   $('.design_visual-img').fadeIn();
+  $('.coopandcont').fadeIn();
 
 
   event.preventDefault();
-          var id = $('.tab-content_inner'),
+          var id = $('.modalyak'),
           top = $(id).offset().top;
           $('body,html').animate({scrollTop: top }, 0);
           $('.tab-content_inner-item').removeClass('modal-scroll');
 });
-
 
 
 
