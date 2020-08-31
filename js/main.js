@@ -308,7 +308,7 @@ $(document).on('click', '.lawcen', function(){
   var id = $('.modalyak'),
   top = $(id).offset().top;
   $('body,html').animate({scrollTop: top}, 0);
-  $('.modal-lawcen').fadeIn('slow','linear');
+  $('.modal-lawcen').fadeIn();
 });
 
 $(document).on('click', '.exzaim', function(){
@@ -316,7 +316,7 @@ $(document).on('click', '.exzaim', function(){
   var id = $('.modalyak'),
   top = $(id).offset().top;
   $('body,html').animate({scrollTop: top}, 0);
-  $('.modal-exzaim').fadeIn('slow','linear');
+  $('.modal-exzaim').fadeIn();
 });
 
 $(document).on('click', '.ttswin', function(){
@@ -324,7 +324,7 @@ $(document).on('click', '.ttswin', function(){
   var id = $('.modalyak'),
   top = $(id).offset().top;
   $('body,html').animate({scrollTop: top}, 0);
-  $('.modal-ttswin').fadeIn('slow','linear');
+  $('.modal-ttswin').fadeIn();
 });
 
 $(document).on('click', '.fgmgame', function(){
@@ -356,7 +356,6 @@ $(document).on('click', '.tab-content_inner-item', function(){
   $('.tab-content_inner-item').removeClass('modal-scroll');
   $(this).addClass('modal-scroll');
   $('.container').css("padding", "0")
-  $('.modal').eq( $(this).index('.tab-content_inner-item') ).fadeIn('slow','linear');
   $('.bg-overlay').fadeIn();
   $('header').fadeOut();
   $('footer').fadeOut();
