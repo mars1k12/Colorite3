@@ -1119,7 +1119,7 @@ footer .contacts_footer {
 }
 
 .modal-grid {
-   /*display: grid;*/
+   display: grid;
    grid-template-columns: 210px auto;
    grid-template-rows: auto auto;
    grid-gap: 25px 90px;
@@ -1987,6 +1987,10 @@ footer .contacts_footer {
       margin-right: 0;
       margin-bottom: 20px;
    }
+   .modal h6+p {
+      display: block;
+
+  }
    .modal-caption {
       font-weight: bold;
       font-size: 24px;
