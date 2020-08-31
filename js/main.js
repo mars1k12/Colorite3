@@ -308,7 +308,7 @@ $(document).on('click', '.lawcen', function(){
   var id = $('.modalyak'),
   top = $(id).offset().top;
   $('body,html').animate({scrollTop: top}, 0);
-  $('.modal-lawcen').fadeIn();
+  $('.modal-lawcen').show();
 });
 
 $(document).on('click', '.exzaim', function(){
@@ -356,8 +356,8 @@ $(document).on('click', '.tab-content_inner-item', function(){
   $('.tab-content_inner-item').removeClass('modal-scroll');
   $(this).addClass('modal-scroll');
   $('.container').css("padding", "0")
-  $('.bg-overlay').fadeIn();
-  $('.hide-effect').fadeOut();
+  $('.bg-overlay').show();
+  $('.hide-effect').hide();
 });
 
 $(document).on('click', '.close_inner', function(){
