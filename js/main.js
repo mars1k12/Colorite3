@@ -357,22 +357,15 @@ $(document).on('click', '.tab-content_inner-item', function(){
   $(this).addClass('modal-scroll');
   $('.container').css("padding", "0")
   $('.bg-overlay').fadeIn();
-  $('header').fadeOut();
-  $('footer').fadeOut();
-  $('.creating_list').fadeOut();
-  $('.design_visual-img').fadeOut();
-  $('.coopandcont').fadeOut();
+  $('.hide-effect').fadeOut();
 });
 
 $(document).on('click', '.close_inner', function(){
   $('.container').css("padding", "0 15px")
   $('.modal').fadeOut();
   $('.bg-overlay').fadeOut();
-  $('footer').fadeIn();
-  $('header').fadeIn();
-  $('.creating_list').fadeIn();
-  $('.design_visual-img').fadeIn();
-  $('.coopandcont').fadeIn();
+  $('.hide-effect').fadeIn();
+
 
   event.preventDefault();
           var id = $('.modalyak'),
@@ -386,11 +379,8 @@ $(document).on('click', '.bg-overlay', function(){
   $('.container').css("padding", "0 15px")
   $('.modal').fadeOut();
   $('.bg-overlay').fadeOut();
-  $('footer').fadeIn();
-  $('header').fadeIn();
-  $('.creating_list').fadeIn();
-  $('.design_visual-img').fadeIn();
-  $('.coopandcont').fadeIn();
+  $('.hide-effect').fadeIn();
+;
 
 
   event.preventDefault();
