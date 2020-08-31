@@ -396,12 +396,7 @@ $(document).on('click', '.close', function(){
   $('.container').css("padding", "0 15px")
   $('.modal').fadeOut();
   $('.bg-overlay').fadeOut();
-  $('footer').fadeIn();
-  $('header').fadeIn();
-  $('.creating_list').fadeIn();
-  $('.design_visual-img').fadeIn();
-  $('.coopandcont').fadeIn();
-
+  $('.hide-effect').fadeIn();
   event.preventDefault();
           var id = $('.modalyak'),
           top = $(id).offset().top;
