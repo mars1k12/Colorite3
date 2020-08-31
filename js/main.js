@@ -403,25 +403,3 @@ $(document).on('click', '.close', function(){
           $('body,html').animate({scrollTop: top}, 0);
           $('.tab-content_inner-item').removeClass('modal-scroll');
 });
-
-
-
-
-
-
-
-
-
-
-
-Email.send({
-  Host : "smtp.yourisp.com",
-  Username : "username",
-  Password : "password",
-  To : 'mirlan.ru@inbox.ru',
-  From : "you@isp.com",
-  Subject : "This is the subject",
-  Body : "And this is the body"
-}).then(
-message => alert(message)
-);
