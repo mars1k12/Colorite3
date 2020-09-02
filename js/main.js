@@ -403,3 +403,38 @@ $(document).on('click', '.close', function(){
           $('body,html').animate({scrollTop: top}, 0);
           $('.tab-content_inner-item').removeClass('modal-scroll');
 });
+
+
+
+
+
+$(document).on('submit', '#coop_form', function(e) {
+  e.preventDefault();
+  var replyto = $('input[name=client_name'),
+      replyto_text = replyto.val(),
+      subject = $('input[name=client_tel'),
+      subject_text = subject.val(),
+      body = $('textarea[name=body]'),
+      body_text = body.val();
+
+  $.ajax({
+      url: "https://formspree.io/meqrbgor",
+      method: "POST",
+      data: {
+          _replyto: replyto_text,
+          _subject: subject_text,
+          message: body_text
+      },
+      dataType: "json",
+      beforeSend: function( xhr ) {
+          spinner.show();
+    }
+  }).done(function(){
+      $('#contacts-success-wrapper').show();
+  }).fail(function() {
+      $('#contacts-error-wrapper').show();
+  }).always(function() {
+      spinner.hide();
+      $('#contacts-wrapper').remove();
+  });
+});
