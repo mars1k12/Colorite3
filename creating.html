@@ -389,16 +389,16 @@
                   <h5 class="h5-form">Что вам нужно</h5>
 
                   <div class="worktype_inner2">
-                     <input type="checkbox" name="worktype" id="create_site">
+                     <input type="checkbox" value="Создание сайта" name="worktype" id="create_site">
                      <label for="create_site">Создание сайта</label>
 
-                     <input type="checkbox" name="worktype" id="create_design">
+                     <input type="checkbox" value="Разработка дизайна"  name="worktype" id="create_design">
                      <label for="create_design">Разработка дизайна</label>
 
-                     <input type="checkbox" name="worktype" id="biz">
+                     <input type="checkbox" value="Продвижение бизнеса"  name="worktype" id="biz">
                      <label for="biz">Продвижение бизнеса</label>
 
-                     <input type="checkbox" name="worktype" id="other">
+                     <input type="checkbox" value="Другое"  name="worktype" id="other">
                      <label for="other">Другое</label>
                   </div>
                </div>
@@ -423,11 +423,12 @@
                <div class="clients_inner">
                   <div class="name_inner">
                      <label for="client_name" class="label_up">Имя</label>
-                     <input type="text" name="client_name" id="client_name" required>
+                     <input type="text" name="client_name" id="client_name">
                   </div>
                   <div class="tel_inner">
                      <label for="client_tel">Телефон</label>
-                     <input type="tel" value="" name="client_tel" id="client_tel" pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?" required>
+                     <input type="tel" value="" name="client_tel" id="client_tel"
+                        pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?">
                   </div>
                   <div class="mail_inner">
                      <label for="client_mail">Email</label>
@@ -473,7 +474,7 @@
                      </div>
 
                   </div>
-                  <textarea name="desc_text" id="desc_text" form="coop_form" required></textarea>
+                  <textarea name="desc_text" id="desc_text" form="coop_form"></textarea>
                </div>
 
                <button class="submit_btn">Отправить<span class="blink_el">_</span></button>
