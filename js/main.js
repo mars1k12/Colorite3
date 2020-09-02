@@ -408,22 +408,3 @@ $(document).on('click', '.close', function(){
 
 
 
-
-
-jQuery(document).ready(function() {
-  jQuery('#coop_form form').submit(function() {
-      var Name = jQuery("#client_name").val();
-      var Phone = jQuery("#client_tel").val();
-      var Quession = jQuery("#client_mail").val();
-      var http = new XMLHttpRequest();
-      var url = "https://script.google.com/macros/s/AKfycbz0BOk4B-BB0z1LQsAzHwiypNywHUVhCFY4aKcjOBY0x12uLN0/exec";
-      var params = "p1="+Name+"&p2="+Phone+"&p3="+Quession;
-      http.open("GET", url+"?"+params, true);
-      http.onreadystatechange = function() {
-          if(http.readyState == 4 && http.status == 200) {
-              //alert(http.responseText);
-          }
-      }
-      http.send(null);
-  });
-});
