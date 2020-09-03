@@ -2249,6 +2249,9 @@ footer .contacts_footer {
       grid-template-rows: auto auto;
       grid-gap: 25px 40px;
    }
+   .thanks_body h2{
+      font-size: 20px;
+   }
 }
 
 @media(max-height:300px) {
