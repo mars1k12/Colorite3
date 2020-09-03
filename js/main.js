@@ -227,15 +227,6 @@ $(function () {
 
 
 
-$(document).ready(function () {
-
-  $("#coop_form").on('submit', function () {
-    $(".coop").css({ "display": "none" });
-    $(".modalcoop").css({ "display": "block" });
-  });
-
-});
-
 
 
 
