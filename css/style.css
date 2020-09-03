@@ -829,9 +829,8 @@ input[type='email']:invalid:focus:not(:placeholder-shown)+.form__validation {
 }
 
 .modalcoop {
-   display: none;
-   width: 82%;
-   margin-right: 3%;
+   display: block;
+   margin: 0 auto; 
    padding: 65px 80px;
    padding-right: 10px;
    border: 1px solid rgba(0, 0, 0, 0.1);
