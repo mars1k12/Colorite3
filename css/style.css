@@ -1014,9 +1014,8 @@ input[type='email']:invalid:focus:not(:placeholder-shown)+.form__validation {
 }
 
 .modalcoop {
-   max-width: 940px;
-   display: block;
-   margin: 0 auto;
+   width: 82%;
+   margin-right: 3%;
    padding: 65px 80px;
    padding-right: 10px;
    border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1852,12 +1851,9 @@ footer .contacts_footer {
    color: #333333;
 }
 
-.ovehide {
-   display: none;
-}
-
-.ovevis {
-   overflow: visible;
+.thanks_body .thanks-inner {
+   margin-top: 190px;
+   margin-bottom: 350px;
 }
 
 @media (max-width:1400px) {
@@ -2211,6 +2207,10 @@ footer .contacts_footer {
    .design_visual-img_inner {
       margin-bottom: 50px;
    }
+   .thanks_body .thanks-inner {
+      margin-top: 100px;
+      margin-bottom: 200px;
+   }
 }
 
 @media (max-width:650px) {
@@ -2335,6 +2335,10 @@ footer .contacts_footer {
    }
    .info-list_inner-item:nth-child(4) {
       max-width: 100%;
+   }
+   .thanks_body .thanks-inner {
+      margin-top: 50px;
+      margin-bottom: 100px;
    }
 }
 
@@ -2604,6 +2608,10 @@ footer .contacts_footer {
    }
    .brif_body .header_top {
       margin-bottom: 100px;
+   }
+   .thanks_body .thanks-inner {
+      margin-top: 50px;
+      margin-bottom: 70px;
    }
 }
 
