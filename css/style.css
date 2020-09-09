@@ -1856,7 +1856,7 @@ footer .contacts_footer {
    margin-bottom: 350px;
 }
 
-@media (max-width:1400px) {
+@media (max-width:1800px) {
    .close {
       position: absolute;
       top: -81px;
