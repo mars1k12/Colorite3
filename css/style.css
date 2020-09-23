@@ -1904,10 +1904,12 @@ footer .contacts_footer {
    -webkit-transition: 1s;
    -o-transition: 1s;
    transition: 1s;
+   opacity: 0;
 }
 .more-logo-r.left,
 .more-mat-r.left,
 .more-style-r.left{
+   opacity: 1;
    left: 0;
 }
 .pricetime-name{
